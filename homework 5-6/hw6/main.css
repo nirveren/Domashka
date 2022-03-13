@@ -1,0 +1,68 @@
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table__border {
+    border: 1px solid black;
+    background: green;
+    width: 50px;
+    height: 20px;
+}
+
+.table__border:first-child {
+    width: 20px;
+}
+
+.table__border:last-child {
+    width: 20px;
+}
+
+.table__item__odd {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.table__item__odd:nth-child(odd) {
+    background-color: black;
+}
+
+.table__item__odd:first-child {
+    height: 50px;
+    width: 20px;
+    background-color: green;
+}
+
+
+.table__item__odd:last-child {
+    height: 50px;
+    width: 20px;
+    background-color: green;
+}
+
+.table__item__even {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.table__item__even:nth-child(even) {
+    background-color: black;
+}
+
+.table__item__even:first-child {
+    height: 50px;
+    width: 20px;
+    background-color: green;
+}
+
+.table__item__even:last-child {
+    height: 50px;
+    width: 20px;
+    background-color: green;
+}
+
+
+
+

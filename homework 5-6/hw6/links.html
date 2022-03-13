@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+div > a {
+    color: green;
+     border-right: 3px solid red;
+     padding: 5px 10px;
+
+ }
+
+ a:hover {
+     color: red;
+ }
+
+ a:last-child {
+     border: none;
+ }
+
+
+  ul {
+     padding-left: 0px;
+ }
+
+  li {
+     display: inline-block;
+ }
+
+ li a {
+     color: green;
+     padding-left: 10px;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ li  a::after {
+     content: "|";
+     color: red;
+     padding-left: 10px;
+     font-size: 40px;
+     }
+
+    
+    </style>
+</head>
+<body>
+    <!-- Cсылки расположены в строку тк тег а является строчным элементом, разделители сделаны с помощью бордера -->
+    <div class="links__first"> 
+        <a href="">первая ссылка</a>
+        <a href="">вторая ссылка</a>
+        <a href="">третья ссылка</a>
+        <a href="">четвертая ссылка</a>
+        <a href="">пятая ссылка</a>
+    </div>
+    <!-- Ссылки расположены в строку с помощью свойства display : inline-block. Разделители сделаны с помощью псевдоэлемена after. -->
+    <div class="links__second">
+        <ul>
+            <li>
+                <a href="">первая ссылка</a>
+            </li>
+            <li>
+                <a href="">вторая ссылка</a>
+            </li>
+            <li>
+                <a href="">третья ссылка</a>
+            </li>
+            <li>
+                <a href="">четвертая ссылка</a>
+            </li>
+            <li>
+                <a href="">пятая ссылка</a>
+            </li>
+        </ul>
+    </div>
+   
+</body>
+</html>
