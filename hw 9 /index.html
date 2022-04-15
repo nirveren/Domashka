@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+        <div class="title">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</div>
+        <form action="">
+                <div class="first__block">
+                    <label for="text" >Название статьи:</label>
+                    <input type="text" id="text" name="text" class="text">
+                </div>
+                <div class="second__block">
+                    <label for="list" class="program">Рубрика:</label>
+                    <select name="list" class="list">
+                        <option value="1" selected>программирование</option>
+                        <option value="2">дизайн</option>
+                        <option value="3">Верстка</option>
+                     </select>
+                </div>
+            <div class="radio">
+                    <label for="radio">Публикация:</label>
+                    <div class="third__block">
+                        <div class="well">
+                            <input type="radio" name="radio" id="radio"> 
+                            <span>на сайте</span>
+                        </div>
+                        <div class="well">
+                            <input type="radio" name="radio" id="radio"> 
+                            <span>в журнале</span>
+                        </div>
+                        <div class="well">
+                            <input type="radio" name="radio" id="radio"> 
+                            <span>на сайте и в журнале</span>
+                        </div> 
+                    </div>
+                    
+            </div>
+            <div class="checkbox">
+                <label for="checkbox">Разрешить комментарии:</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+            <div class="last__block">
+                <div>Текст статьи:</div>
+                <textarea name="textarea" id="textarea" cols="60" rows="5" class="textarea"></textarea>
+                <input type="submit" value="Опубликовать" class="submit">
+            </div>
+        </form> 
+    </div>
+
+</body>
+</html>

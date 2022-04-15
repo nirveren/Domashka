@@ -1,0 +1,72 @@
+
+.text {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 360px;
+}
+
+.second__block {
+    margin-top: 10px;
+}
+
+.list { 
+    margin-left: 70px;
+}
+
+.radio {
+    margin-top: 10px;
+}
+
+.third__block {
+    display: inline;
+    margin-left: 40px;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.last__block {
+    margin-top: 10px;
+}
+
+.submit { 
+    margin-top: 10px;
+    display: block;
+}
+
+.well {
+    display: inline;
+}
+
+.textarea {
+    resize: none;
+}
+
+@media (max-width: 515px) {
+    .title {
+        margin-bottom: 10px;
+    }
+    .text {
+        margin-left: 0px;
+    }
+    .program {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .list {
+        margin-left: 0px;
+        width: 93%;
+    }
+    .third__block {
+        margin-top: 10px;
+        display: block;
+        margin-left: 0px;
+    }
+    .well {
+        display: block;
+    }
+    .textarea { 
+        width: 370px;
+    }
+}
